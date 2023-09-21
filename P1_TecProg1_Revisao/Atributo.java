@@ -1,15 +1,13 @@
 public class Atributo {
   
   /*
-    Um atributo é uma característica de uma classe, semelhante á uma váriavel.
+    Atributo - É uma característica de uma classe, semelhante á uma váriavel.
     Ele sempre deve ser declarado, com um tipo ou classe (String).
   */
 
-  /*
-    Exemplos:
+  // Exemplos:
 
-    - String nomeAluno;
-    - int idadeAluno;
-  */
+  private String nomeAluno; // String é uma classe, por isso tem letra maiúscula
+  private int idadeAluno;
 
 }

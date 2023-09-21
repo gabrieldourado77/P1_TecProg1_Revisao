@@ -1,45 +1,44 @@
 public class Tipo {
 
   /*
-    Tipos Primitivos:
-
-    São os tipos normais do Java.
+    Tipos Primitivos - São os tipos normais do Java.
 
     - int - Números inteiros.
     - float - Números com ponto flutuante (casas decimais).
-    - double - Mesma coisa do Float, mas suporta um intervalo maior de valores.
+    - double - Mesma coisa do float, mas suporta um intervalo maior de valores.
     - char - Letras e caracteres (é do tipo númerico).
   */
 
   /*
-    Obs 1 - Para atribuir um valor em um atributo float, preciso usar o f no final.
-    Exemplo: float numero = 0.00f
+    Obs - Para atribuir um valor em um atributo float, preciso usar o f no final.
   */
 
-  /*
-    Tipos Abstratos:
 
-    São tipos, que são ligados a classes.
+  // Exemplos:
+  private int num1 = 0;
+  private float num2 = 0.0f;
+  private double num3 = 0.0;
+  private char letra = 'A';
+
+
+  /*
+    Tipos Abstratos - São tipos, que são ligados a classes.
     
     Exemplos de classes:
 
     - String - Permite guardar textos e caracteres;
-    - Scanner - Permite ler dados digitados pelo teclado.
+    - Scanner - Permite ler dados digitados pelo teclado;
     - Math - Disponibiliza funções matemáticas prontas, para serem utilizadas.
   */
 
-  /*
-    Exemplos práticos:
 
-    private String nomeAluno;
-    private int valor;
+  // Exemplos:
 
-    import java.util.Scanner;
-    Scanner sc = new Scanner(System.in);
-    nomeAluno = sc.nextLine();
+  private String nome;
+  private int valor = 0;
+  
+  // Scanner sc = new Scanner(System.in);
 
-    import java.lang.Math;
-    valor = Math.pow(2,4);
-  */
+  valor = Math.pow(2,4);
 
 }

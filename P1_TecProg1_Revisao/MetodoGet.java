@@ -1,7 +1,7 @@
 public class MetodoGet {
     
     /*
-        Colocarei a explicação em breve.
+        Método Get - Colocarei a explicação em breve.
     */
 
 }

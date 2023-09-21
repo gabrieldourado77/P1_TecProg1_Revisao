@@ -1,9 +1,7 @@
 public class ModificadorDeAcesso {
-   
-  public static void main(String[] args) {
-      
+
     /*
-      Os modificadores de acesso, servem para controlar:
+      Modificadores de Acesso - Servem para controlar:
       - Quem consegue acessar e utilizar os elementos;
       - O que será herdado, quando for feita uma herança (não vimos ainda).
     */
@@ -13,7 +11,6 @@ public class ModificadorDeAcesso {
      - Classes;
      - Atributos;
      - Métodos;
-     - Objetos.
     */
 
     /*
@@ -31,6 +28,17 @@ public class ModificadorDeAcesso {
       se ambos estiverem na mesma pasta.
     */
 
+
+  // Exemplos:
+
+  public class Modificador{} // Classe pública
+  private String modificador; // Atributo privado
+  
+  // Método protegido
+  protected void mostrarOlaMundo(){
+    System.out.println("Olá, mundo!");
   }
-   
+
+  String nomeMod; // Atributo sem modificador (friendly)
+
 }
