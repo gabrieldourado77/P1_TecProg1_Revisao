@@ -1,0 +1,18 @@
+-- Conceitos da linguagem Java --
+
+- Java - É uma linguagem orientada a objetos, que utiliza uma máquina virtual, 
+para que o seu código possa ser interpretado por qualquer dispositivo.
+
+- JVM - É a Java Virtual Machine ou Máquina Virtual Java.
+
+- JDK - É o Java Development Kit ou Kit de Desenvolvimento Java.
+
+- JRE - É o Java Runtime Environment ou Ambiente de Tempo de Execução Java, que vem incluso no JDK.
+
+- Javac - É o compilador do Java.
+
+- Arquivo .java - É o código-fonte do programa.
+
+- Arquivo .class - É um arquivo java, que foi compilado.
+
+- Bytecode - É um código binário, que foi gerado na compilação de um programa e será interpretado pela JVM.  

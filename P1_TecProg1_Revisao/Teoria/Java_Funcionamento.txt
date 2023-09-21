@@ -1,0 +1,15 @@
+-- Funcionamento da linguagem Java --
+
+- O Java é uma linguagem multiplataforma, que utiliza a JVM, 
+para que o seu código possa ser interpretado, por qualquer dispositivo.
+
+- Para desenvolver programas em Java, precisamos instalar o JDK.
+- Para executar programas, usamos o JRE.
+
+
+-- Etapas -- 
+
+- É criado um código Java.
+- Ele é compilado e transformado em um arquivo .class, que possui um bytecode.
+- Esse bytecode é interpretado pela JVM.
+- O programa é executado.
